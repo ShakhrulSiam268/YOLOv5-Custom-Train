@@ -8,7 +8,8 @@
         └── labels
 ```
 
-Update Dataset Directory path in `./data/dataset_name.yaml` file.
+If you want to follow different folder structure, update Dataset Directory path in `./data/dataset_name.yaml` file.
+
 
 ## Training
 Run 
