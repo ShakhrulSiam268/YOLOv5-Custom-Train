@@ -14,7 +14,7 @@ If you want to follow different folder structure, update Dataset Directory path 
 ## Training
 Run 
 
-`python train.py --img 640 --batch 8 --epochs 50 --data dataset_name.yaml --weights ./model_data/yolov5s.pt`
+`python train.py --img 640 --batch 2 --epochs 50 --data dataset_name.yaml --weights ./model_data/yolov5s.pt`
 
 use smaller batch size to prevent GPU Memory exceed error.
 

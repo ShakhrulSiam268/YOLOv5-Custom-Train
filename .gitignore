@@ -1,4 +1,5 @@
 model_data/
 __pycache__/
 runs/
+env/
 .idea/
