@@ -16,6 +16,10 @@ Run
 
 `python train.py --img 640 --batch 2 --epochs 50 --data dataset_name.yaml --weights ./model_data/yolov5s.pt`
 
+
+`tensorboard --logdir runs/train & python train.py --img 640 --batch 2 --epochs 50 --data pres.yaml --weights ./model_data/yolov5s.pt`
+
+
 use smaller batch size to prevent GPU Memory exceed error.
 
 Model and Results will be saved at `run/train/exp*` folder as 
